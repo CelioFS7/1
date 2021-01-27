@@ -244,7 +244,7 @@ finally
     item.startWith() Verifica se uma função começa com determinada letra ("l") ignoreCase: false assim ele ignora se for maiusculo ou nao
 
     arrayof() declara uma lista de caracteres de varios valores
-
+    teste teste test etstse tsetsets test setsetset set se tse tset
      */
 
 
