@@ -228,6 +228,23 @@ finally
 
     */
 
+    /*Parametros vararg, posso usar esse parametro para que a funlção aceite varios numeros sem dar erro
+    sendo assim posso fazer por exemplo somar notas sem precisar colocar ordenado n1 n2 n3 n4 posso colocar o parametro
+    e ele entende e soma por ordem
 
+    A função fun<T> media(vararg valores: T){}
+    se eu colocar essa função posso ter int, bit, Float, Double, que nao da erro na função aceita qualquer parametro
+
+     */
+
+    /* ALGUMAS FUNÇÕES
+    item.capitalize() deixa a primeira letra maiuscula
+    item.decapitalize()diminuir a primeira letra
+    item.contains - Verificar se contem uma string ex  ("bla") se tiver a String bla
+    item.startWith() Verifica se uma função começa com determinada letra ("l") ignoreCase: false assim ele ignora se for maiusculo ou nao
+
+    arrayof() declara uma lista de caracteres de varios valores
+
+     */
 
 

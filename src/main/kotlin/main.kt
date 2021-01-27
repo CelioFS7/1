@@ -1,7 +1,5 @@
 @file:Suppress("UNREACHABLE_CODE")
 
-import java.lang.NumberFormatException
-
 /*fun calculaBonus(a: Int, b: Int, c: Int): Unit {
    print("O bonus é: ${a + b + c}")
 
@@ -329,10 +327,54 @@ fun main(){
 
 //ORIENTAÇÃO A OBJETOS / classes
 
-fun main(){
 
-    
+//Mais sobre Parametros
+/*fun endereco(rua: String = "", cidade: String){
+    println("Rua:$rua")
+    println("Cidade:$cidade")
+
 }
+fun main(){
+    //Se eu não colocar nada o codigo pega a sequencia a cima descrita na função
+    //Se eu colocar cidade="nome da cidade" o codigo pula e pega direto a cidade
+    endereco("Dom penso", "Trindade")
+    endereco(cidade =  "trindade")
+}*/
+
+//PAREMETROS MEDIA DE ALUNO vararg
+
+/*fun media(n1: Float, n2: Float, n3: Float = 0f, n4: Float = 0f){
+    if (n4 != 0f){
+        val media =n1 + n2 + n3 + n4 / 4
+    }
+}pode ser feito assim mais é mais complicado para simplificar usar vararg*/
+/*fun media3(vararg notas: Float){
+
+    if(notas.isNotEmpty()){
+        var soma = 0f
+        for (nota in notas){
+            soma += nota
+        }
+        println("A média é: ${soma/notas.size}")
+    }
+
+    notas.size
+
+}
+//se eu colocar essa função posso ter int, bit, Float, Double, que nao da erro na função aceita qualquer parametro
+fun<T> media(vararg valores: T){
+    for (valor in valores){
+        println(valor)
+    }
+}
+
+fun main(){
+    //vararg aceita um numero ilimitados
+    media(8f,9f,8f,7f,)
+    media (1,4f, "", 'C',)
+}*/
+
+
 
 
 
