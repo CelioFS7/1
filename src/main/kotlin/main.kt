@@ -326,6 +326,64 @@ fun main(){
 }*/
 
 //ORIENTAÇÃO A OBJETOS / classes
+/*
+class Pessoa1 ()
+
+class Pessoa2 (var nome: String, var anoNacimento: Int)
+
+class Pessoa3 (var nome: String, var anoNacimento: Int){
+    fun saudacao(){
+        println("Ola, meu nome e $nome")
+    }
+}
+
+fun main(){
+
+
+
+    //assim estou istanciando uma classe
+    val pessoa: Pessoa3 = Pessoa3("Celio", 1993)
+
+    println(pessoa.nome)
+    println(pessoa.anoNacimento)
+
+    pessoa.saudacao()
+
+}*/
+
+//orientação a objeto / contrutor
+/*class Pessoa1 ()
+
+class Pessoa2 (var nome: String, var anoNacimento: Int)
+
+class Pessoa3 (var nome: String) {
+
+    var ano: Int? = null
+
+    constructor(nome: String, ano: Int) : this(nome) {
+        this.ano = ano
+    }
+    fun saudacao(){
+        println("Ola, meu nome e $nome, e nasci no ano de $ano")
+    }
+}
+
+fun main() {
+
+    val p3: Pessoa3 = Pessoa3("Celio", 1993)
+    val p1: Pessoa3 = Pessoa3("Gabriel", 1900)
+
+    p1.saudacao()
+    p3.saudacao()
+
+
+}*/
+
+//Getter e Setters
+fun main(){
+
+}
+
 
 
 //Mais sobre Parametros
